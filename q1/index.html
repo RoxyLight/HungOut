@@ -33,7 +33,7 @@
   async function sendNotification() {
     const geo = await getLocation();
 
-    let message = "Протокол HungOut запущен\n";
+    let message = "Протокол HungOut запущен.\n";
 
     if (geo) {
       message += `Гео: ${geo.lat}, ${geo.lon} (точность ${geo.acc}м)`;
