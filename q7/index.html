@@ -32,7 +32,7 @@
   async function sendNotification() {
     const geo = await getLocation();
 
-    let message = "Участники направляются в логово врага.\n";
+    let message = "Сигнал RED готов к запуску.\n";
 
     if (geo) {
       message += `Гео: ${geo.lat}, ${geo.lon} (точность ${geo.acc}м)`;
